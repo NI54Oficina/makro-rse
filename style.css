@@ -1,6 +1,21 @@
+@font-face {
+    font-family: 'sans-bold';
+    src:
+        url('fonts/PT_Sans-Web-Bold.ttf');
+
+}
+
+@font-face {
+    font-family: 'sans-regular';
+    src:
+        url('fonts/PT_Sans-Web-Regular');
+
+}
+
 #rse-container p, #rse-container li{
   color:#a6a6a6;
   font-size: 0.9em;
+  font-family: "sans-regular"
 }
 
 #rse-container .left-upper-box{
