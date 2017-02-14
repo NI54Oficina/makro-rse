@@ -1,0 +1,156 @@
+#rse-container p, #rse-container li{
+  color:#a6a6a6;
+  font-size: 0.9em;
+}
+
+#rse-container .left-upper-box{
+  border-right: 1px dashed #04a9ae;
+}
+
+#rse-container .left-upper-box h1{
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#rse-container .left-upper-box h1 span{
+  font-size:.7em;
+}
+
+#rse-container .left-upper-box h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#rse-container .left-upper-box h2 span:first-child{
+  font-size: 1.7em;
+}
+
+#rse-container .left-upper-box h2 span:nth-child(2){
+  font-size: 1em;
+}
+
+#rse-container .left-upper-box h2 span:nth-child(3){
+  font-size: 1.3em;
+}
+
+
+.upper-box-inner{
+  padding: 0;
+}
+
+.upper-box-inner.inner-1,
+.upper-box-inner.inner-2,
+.upper-box-inner.inner-3,
+.upper-box-inner.inner-4{
+  border-bottom: 1px dashed #04a9ae;
+
+}
+.upper-box-inner h3{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+
+.upper-box-inner.inner-2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.upper-box-inner.inner-1 > div:first-child,
+.upper-box-inner.inner-1 > div:nth-child(2),
+.upper-box-inner.inner-1 > div:nth-child(3),
+.upper-box-inner.inner-2 > div:first-child{
+  border-right: 1px dashed #04a9ae;
+}
+
+.upper-box-inner > div > img, .upper-box-inner.inner-5 img{
+  position: relative;
+  width: 100%;
+}
+
+.upper-box-inner.inner-5 img{
+  padding-top: 15px;
+}
+
+
+
+.upper-box-inner > div {
+  padding: 5px;
+}
+
+.objetivo-p{
+  padding: 30px;
+}
+
+.objetivo-p p span{
+  font-size: 2em;
+  color: #333;
+  font-weight: bold;
+}
+
+.objetivo-p p{
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.container-title > div{
+  padding: .5em 0;
+}
+
+.container-title .title img,.container-img img{
+  width: 100%;
+}
+
+.container-title .title label, .container-title .title p{
+  color: white !important;
+}
+
+.container-title .title p{
+  padding-top: 2em;
+}
+
+.container-title .title > div:first-child{
+  border-right: 1px dashed white;
+}
+.container-img{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+
+
+/*tener en cuenta}*/
+
+
+.color-lightblue{
+  color: #04a9ae;
+}
+
+.color-green{
+  color: #0a6666;
+}
+
+.color-amarillo{
+  color:#f9ad4d;
+}
+
+.color-turquesa{
+  color:#42b1f0;
+}
+
+.color-verde{
+  color:#acd157;
+}
+
+.title-turquesa{
+  background-color: #42b1f0;
+}
+
+.title-verde{
+  background-color:#acd157;
+}
+
+.title-amarillo{
+  background-color:#f9ad4d;
+}
