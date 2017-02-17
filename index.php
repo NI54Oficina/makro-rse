@@ -116,22 +116,10 @@
                 </div>
             </header>
 			
-	<div class="container-fluid main_content">
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="section_title">
-                <div class="section_title_inner">
-                    <h1>RESPONSABILIDAD SOCIAL EMPRESARIA</h1>
-                    <div class="arrow-up"></div>
-                </div>
-            </div>
+	
 
 			<?php include("rse.php"); ?>
-	   </div>
-    </div>
-
-    
-	</div>
+	 
 <footer>
     <div class="footer_outer">
         <div class="footer container-fluid">

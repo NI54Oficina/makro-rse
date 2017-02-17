@@ -1,5 +1,18 @@
 <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
 <div id="rse-container" style="padding:0" class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+=======
+<div class="container-fluid main_content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="section_title">
+                <div class="section_title_inner">
+                    <h1>RESPONSABILIDAD SOCIAL EMPRESARIA</h1>
+                    <div class="arrow-up"></div>
+                </div>
+            </div>
+<div id="rse-container" class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+>>>>>>> origin/master
 
 
   <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 left-upper-box">
@@ -120,3 +133,9 @@
 
 
 </div>
+
+  </div>
+    </div>
+
+    
+	</div>
