@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="style.css">
-<div id="rse-container" class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div id="rse-container" style="padding:0" class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 
   <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 left-upper-box">
@@ -69,8 +69,8 @@
 
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 upper-box-inner inner-5">
 
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><img src="recursos/compromisso.png" alt=""></div>
-      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img src="recursos/compromisso.png" alt=""></div>
+      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
         <h3 class="color-green"><span class="color-lightblue">NUESTRO</span> COMPROMISO</h3>
         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto Lorem Ipsum es Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto Lorem Ipsum es</p>
 
@@ -85,7 +85,7 @@
   </div>
 
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 objetivo-p">
-    <p><span>OBJETIVO</span> algo de los objetivos sara saraza saraza saraza saraza saraza</p>
+    <p class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><span>OBJETIVO</span></p> <p class="col-lg-10 col-md-10 col-sm-10 col-xs-10">algo de los objetivos sara saraza saraza saraza saraza saraza algo de los objetivos sara saraza saraza saraza saraza saraza algo de los objetivos sara saraza saraza saraza saraza saraza</p>
   </div>
 
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom-box-container">

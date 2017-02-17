@@ -8,13 +8,24 @@
 @font-face {
     font-family: 'sans-regular';
     src:
-        url('fonts/PT_Sans-Web-Regular');
+        url('fonts/PT_Sans-Web-Regular.ttf');
 
+}
+
+h1, h2, h3{
+  margin:0;
+  font-family: "sans-regular";
+}
+
+p{
+  margin: 0;
+  line-height: 15px;
+  font-family: "sans-regular"
 }
 
 #rse-container p, #rse-container li{
   color:#a6a6a6;
-  font-size: 0.9em;
+  font-size: 0.85em;
   font-family: "sans-regular"
 }
 
@@ -25,6 +36,7 @@
 #rse-container .left-upper-box h1{
   font-size: 4em;
   font-weight: bold;
+  line-height: .6em;
 }
 
 #rse-container .left-upper-box h1 span{
@@ -34,6 +46,7 @@
 #rse-container .left-upper-box h2 {
   font-size: 2em;
   font-weight: bold;
+  line-height: 1.3em;
 }
 
 #rse-container .left-upper-box h2 span:first-child{
@@ -46,6 +59,10 @@
 
 #rse-container .left-upper-box h2 span:nth-child(3){
   font-size: 1.3em;
+}
+
+.left-upper-box img{
+  width: 5em;
 }
 
 
@@ -103,13 +120,19 @@
   font-weight: bold;
 }
 
-.objetivo-p p{
+.objetivo-p{
   background-color: #f2f2f2;
   padding: 10px;
+  margin-bottom: 2em;
 }
 
 .container-title > div{
   padding: .5em 0;
+}
+
+.container-title label{
+  font-weight: normal;
+  margin-top: 5px;
 }
 
 .container-title .title img,.container-img img{
