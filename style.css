@@ -25,7 +25,7 @@ p{
 
 #rse-container p, #rse-container li{
   color:#a6a6a6;
-  font-size: 0.85em;
+  font-size: 13px;
   font-family: "sans-regular"
 }
 
@@ -68,9 +68,6 @@ p{
 }
 
 
-.upper-box-inner{
-  padding: 0;
-}
 
 /*.upper-box-inner.inner-1,
 .upper-box-inner.inner-2,
@@ -122,6 +119,11 @@ p{
 padding:0;
 }
 
+.bottom-box-container .container-title{
+	padding-left:5px;
+	padding-right:5px;
+}
+
 .objetivo-p p span{
   font-size: 2em;
   color: #333;
@@ -145,6 +147,15 @@ padding:0;
 .container-title label{
   font-weight: normal;
   margin-top: 5px;
+  font-size:10px;
+  text-align:center;
+  display:inline-block;
+  width:100%;
+}
+
+.container-title .col-lg-7{
+	padding-left:5px;
+	padding-right:5px;	
 }
 
 .container-title .title img,.container-img img{
@@ -156,7 +167,8 @@ padding:0;
 }
 
 .container-title .title p{
-  padding-top: 2em;
+  /*padding-top: 2em;*/
+  padding-top:10px;
 }
 
 .container-title .title > div:first-child{
@@ -165,6 +177,7 @@ padding:0;
 .container-img{
   padding-top: 5px;
   padding-bottom: 2em;
+  padding-right:5px;padding-left:5px;
 }
 
 
@@ -212,15 +225,24 @@ padding:0;
 .right-dashed{
 	border-right:1px dashed  #42b1f0;
 }
-.top-dashed{
-	margin-top:30px;
+.dashed{
+	margin-top:10px;
+	margin-bottom:10px;
 	border-top:1px dashed  #42b1f0;
+	float:left;display:inline-block;width:100%;
 }
-.bottom-dashed{
-	border-bottom:1px dashed  #42b1f0;
-}
+
 .left-upper-upper{
 	text-align:center;
 }
 
 .upper-text{display:inline-block;}
+
+.lateral-compromiso img{max-width:50px;}
+.lateral-compromiso{text-align:center;}
+
+.programas-containers p{width:80%; display:inline-block; background-color:#e6e6e7; padding:5px;}
+.programas-containers {margin:10px 0;}
+
+.logo-container{display:inline-block;width:20%;overflow:hidden;height:100%;}
+.logo-container img{max-width:90%;padding-bottom:20px;}
