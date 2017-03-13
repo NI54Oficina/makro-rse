@@ -30,7 +30,7 @@ p{
 }
 
 #rse-container .left-upper-box{
-  border-right: 1px dashed #04a9ae;
+  /*border-right: 1px dashed #04a9ae;*/
 }
 
 #rse-container .left-upper-box h1{
@@ -72,13 +72,13 @@ p{
   padding: 0;
 }
 
-.upper-box-inner.inner-1,
+/*.upper-box-inner.inner-1,
 .upper-box-inner.inner-2,
 .upper-box-inner.inner-3,
 .upper-box-inner.inner-4{
   border-bottom: 1px dashed #04a9ae;
 
-}
+}*/
 .upper-box-inner h3{
   font-size: 1.3em;
   font-weight: bold;
@@ -204,3 +204,23 @@ padding:0;
 .title-amarillo{
   background-color:#f9ad4d;
 }
+
+.left-dashed{
+	border-left:1px dashed  #42b1f0;
+}
+
+.right-dashed{
+	border-right:1px dashed  #42b1f0;
+}
+.top-dashed{
+	margin-top:30px;
+	border-top:1px dashed  #42b1f0;
+}
+.bottom-dashed{
+	border-bottom:1px dashed  #42b1f0;
+}
+.left-upper-upper{
+	text-align:center;
+}
+
+.upper-text{display:inline-block;}
